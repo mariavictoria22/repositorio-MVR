@@ -155,12 +155,42 @@ border: none;
 
 
 
+footer  { 
+  margin-top: 2rem;
+}
+footer hr { 
+  color:rgba(7, 68, 83, 0.836) ;
+  border: solid 0,5px;
+  text-align: center;
+}
+  
 
-footer {
-    display: flex; flex-direction: column; justify-content: center;
+footer h6  { 
+    color: rgba(7, 68, 83, 0.836);
+    font-family: "Raleway", sans-serif;
     text-align: center;
-    font-weight: 100;
-  margin-top: 10rem;}
+}
+
+footer .redes  {
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.redes li { 
+  display: inline-block;
+}
+
+.redes a { 
+  padding: 10px;
+
+}
+
+footer p { 
+  color:rgba(7, 68, 83, 0.836);
+  text-align: center;
+font-size:smaller;
+}
 
 
 /*COMIENZO NOSOTROS*/
@@ -327,13 +357,13 @@ table {margin-top: 20px; margin-left: 2rem;}
          border: 1px solid;
           text-align: center; }
     tr,td,ul,li { list-style-type: decimal; padding: 0,9 rem;
-    }   
+}   
 
+.pres { justify-content: left; }
 
-.carousel-inner {
-
-
-
+.pres .slide img {
+height: 20vh;
+width:fit-content;
 }
 
 
