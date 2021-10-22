@@ -197,10 +197,6 @@ font-size:smaller;
 .section-title h2 { color: #073a49; } 
   
 
-
-
-
-
 .team .member {
   text-align: center;
   margin-bottom: 20px;
@@ -208,18 +204,19 @@ font-size:smaller;
   padding: 30px 20px;
   background: #fff;
 }
-.team .member img {
+.team .fotoequipo{
   height: 10rem;
-  max-width: 100%;
+  max-width: 50%;
   border-radius: 50%;
-  margin: 0 0 0 0;
+  margin-left:auto;
+  margin-right: auto;
   align-content: center;
+  margin-bottom: 2rem;
 }
-.team .member h4 {
-  margin-top: 5rem;
-  font-weight: 700;
-  margin-bottom: 4px;
-  font-size: 18px;
+.member p {
+  margin-top: 2rem;
+  text-align: center;
+ 
 }
 
 .team .member p {
