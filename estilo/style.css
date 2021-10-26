@@ -126,6 +126,7 @@ body {
   margin-left: 1rem;
   background-color :rgba(7, 68, 83, 0.836);
   color: #eee;
+  padding-right: 1rem; padding-left: 1rem;
 }
 
 
@@ -142,9 +143,12 @@ body {
   
 
 } 
+.ya button  { 
+  color: #073a49;
+}
 
-.btn{ 
-background-color:rgba(7, 68, 83, 0.836);
+.btn:hover{ 
+background-color:#0b6669;
 color: #eee;
 border: none;
 
@@ -196,6 +200,7 @@ font-size:smaller;
 /*COMIENZO NOSOTROS*/
 .section-title h2 { color: #073a49; } 
   
+.section-title p { color: #073a49; } 
 
 .team .member {
   text-align: center;
@@ -283,7 +288,8 @@ article {
     position: relative;
     margin: 0% 40%;
   }
-.carousel-inner
+
+ 
 
 /*COMIENZO PRESUPUESTO*/
 
@@ -356,9 +362,19 @@ table {margin-top: 20px; margin-left: 2rem;}
     tr,td,ul,li { list-style-type: decimal; padding: 0,9 rem;
 }   
 
+.advertencias li{
+  color: #073a49;
+  margin-top: 1rem; margin-left: 5px;
+  list-style: circle;
+}
+.advertencias li img {
+  height: auto;
+  width: 80vh;
+  list-style: none;
+}
 
 .tarifas button {
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
   color: #073a49;
   font-weight: 300;
@@ -366,24 +382,29 @@ table {margin-top: 20px; margin-left: 2rem;}
 }
 
 
+
 /*COMIENZO CONTACTO*/
 
-#comunicate { display: flex;}
+.comunicate { display: flex;}
 .contactate {
   color: rgb(7, 68, 83);
   text-align: center;
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 
 .cajas{ 
-  background-color: rgb(2, 136, 129);
-  width: 300px; height: 300px;
-  margin: 1rem;
-  align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  
 } 
- 
+ .cajas img { width: 20rem; height: 20rem;}
+
+
 .contacto{
   color:rgb(7, 68, 83);
   margin-top: 20px;}
@@ -403,7 +424,21 @@ table {margin-top: 20px; margin-left: 2rem;}
   margin-left: 1rem;
 }
 
+.infocontacto strong {
+  padding-top: 1rem;
+  color: #073a49;
+}
+.infocontacto p{
+  margin-top: 1rem;
+  color:#0b6669;
+}
+
+
 /* media queries */ 
 @media screen and (max-width: 720){
+  .comunicate{
+    flex-direction: column;
+    padding-top: 1rem;
+  }
   
 }
