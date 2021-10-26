@@ -423,7 +423,10 @@ table {margin-top: 20px; margin-left: 2rem;}
 .contacto div input {
   margin-left: 1rem;
 }
-
+.infocontacto  {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
 .infocontacto strong {
   padding-top: 1rem;
   color: #073a49;
@@ -432,6 +435,9 @@ table {margin-top: 20px; margin-left: 2rem;}
   margin-top: 1rem;
   color:#0b6669;
 }
+
+
+
 
 
 /* media queries */ 
