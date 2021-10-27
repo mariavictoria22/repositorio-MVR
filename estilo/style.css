@@ -112,21 +112,20 @@ body {
 .empresa { 
   display: flex;
   flex-direction:row;
-  
-
 } 
 
-.empresa-items  { 
-  padding-top: 1rem;
+.empresa-items{ 
   color:rgb(7, 68, 83);
   margin-left: 1rem;
 } 
 
-.empresa strong  { 
+.empresa div strong{ 
+  padding: 5px;
+  margin-top: 1rem;
+  margin-bottom: rem;
   margin-left: 1rem;
   background-color :rgba(7, 68, 83, 0.836);
   color: #eee;
-  padding-right: 1rem; padding-left: 1rem;
 }
 
 
@@ -193,7 +192,7 @@ padding-bottom: 40px;
 footer p { 
   color:rgba(7, 68, 83, 0.836);
   text-align: center;
-font-size:smaller;
+  font-size:smaller;
 }
 
 
