@@ -20,7 +20,7 @@
    <!-- Bootstrap CSS -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="../estilo/style.css">
+<link rel="stylesheet" href="../estilo/style.css">
 </head>
 <body>
 
@@ -54,27 +54,47 @@
     
   
     <p class="contactate">¿QUE TIPO DE EVENTO QUERES ORGANIZAR?</p>
-     <section class="comunicate">
-      <div class="cajas" > <img src="../imagenes/FIESTAS.jpg" alt=""></div>
-       <div class="cajas"> <img src="../imagenes/RECITALES.jpg" alt=""></div>
-       <div class="cajas"><img src="../imagenes/E. CORPORATIVOS.jpg" alt=""></div>
-    </section>
-    
-  <section class="infocontacto">
-    <strong>FIESTA:</strong>
-    <p>La encargada de la organización es Ornella Ricciardi</p>
-    <P> <img src="../imagenes/gmail.png" alt="gmail" width="20px" height="20px"> mvr-fiestas@gmail.com // <img src="../imagenes/wpp.png" alt="whatsapp" width="30px" height="30px"> +54 9 02227 15-000000</P>
-    
-    <strong>RECITALES Y SHOWS:</strong>
-    <p>La encargada de la organización es Victoria Ricciardi</p>
-    <P> <img src="../imagenes/gmail.png" alt="gmail" width="20px" height="20px"> mvr-shows@gmail.com // <img src="../imagenes/wpp.png" alt="whatsapp" width="30px" height="30px"> +54 9 02227 15-000000</P>
 
-    <strong>EVENTOS EMPRESARIALES:</strong>
-    <p>La encargada de la organización es Mora Ricciardi</p>
-    <P> <img src="../imagenes/gmail.png" alt="gmail" width="20px" height="20px"> mvr-empresariales@gmail.com // <img src="../imagenes/wpp.png" alt="whatsapp" width="30px" height="30px"> +54 9 02227 15-000000</P>
-  </section>
+<div class="card-group">
+    <div class="card">
+      <img src="../imagenes/FIESTAS.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Para que disfrutes de cada detalle</h5>
+        <p class="card-text">Contactate con Ornella y empeza a planificar la fiesta que tanto soñas</p>
+        <p class="card-text"><small class="text-muted"> <a href="https://www.google.com/intl/es-419/gmail/about/"><img src="../imagenes/gmail.png" alt="gmail" width="20px" height="20px"> mvr-fiestas@gmail.com</a></p></small>
+        <p class="card-text"><small class="text-muted"><img src="../imagenes/wpp.png" alt="whatsapp" width="30px" height="30px"> +54 9 02227 15-000000</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../imagenes/RECITALES.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Emociona y sorprende a tu publico</h5>
+        <p class="card-text">Contactate con Victoria y que empiece la cuenta regresiva</p>
+        <p class="card-text"><small class="text-muted"> <a href="https://www.google.com/intl/es-419/gmail/about/"><img src="../imagenes/gmail.png" alt="gmail" width="20px" height="20px"> mvr-shows@gmail.com</a></p></small>
+        <p class="card-text"><small class="text-muted"><img src="../imagenes/wpp.png" alt="whatsapp" width="30px" height="30px"> +54 9 02227 15-000000</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="../imagenes/E. CORPORATIVOS.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Deslumbra y llevate todos los aplausos</h5>
+        <p class="card-text">Contactate con Mora y solo encargate de contarnos tus ideas</p>
+        <p class="card-text"><small class="text-muted"> <a href="https://www.google.com/intl/es-419/gmail/about/"><img src="../imagenes/gmail.png" alt="gmail" width="20px" height="20px">mvr-empresariales@gmail.com</a></p></small>
+        <p class="card-text"><small class="text-muted"><img src="../imagenes/wpp.png" alt="whatsapp" width="30px" height="30px"> +54 9 02227 15-000000</small></p>
+      </div>
+    </div>
+</div>
 
-    
+
+<div class="contratanos">
+  <h5>QUE LA FIESTA EMPIECE</h5>
+  <p>No dudes más, conocenos y empezamos a planificar tu evento. Nuestro servicio es flexible, nuestro principal objetivo es acompañarte en 
+    este hermoso proceso de organización, por lo que nos adaptamos a tus ideas y a los recursos disponibles. Recorda intentar contactarnos por lo menos 
+  tres meses antes del evento, para tener tiempo de pensar, planificar y llevar a cabo fiesta. </p>
+  <strong>Se el mejor anfitrión junto a MVR</strong> 
+</div>
+
+
 <form action="" method="GET" >
     <fieldset class="contacto" >
             <legend>Pedí más información</legend>
@@ -82,8 +102,11 @@
                 <label for="MVRinfo">Nombre y apellido</label>
                 <input type="text" name="MVRinfo" id="MVRinfo" placeholder="Escriba aqui" required>
             </div>
-
-            <div >
+            <div>
+              <label for="MVRinfo">Correo electronico</label>
+              <input type="text" name="MVRinfo" id="MVRinfo" placeholder="usuario@hotmail.com" required>
+          </div>
+            <div>
                 <p>¿Que tipo de evento queres presupuestar?</p>
                 <select 
                 name="MVRservicio" id="MVRservicio">
@@ -108,12 +131,6 @@
 
 
     </fieldset>
-
-
-
-
-
-
 
 </form>
 
